@@ -10,7 +10,7 @@ router.get("/", (req,res) => {
 
 router.post("/", (req,res) => {
     res.send({
-        "Output": "asdasdasdasd!"
+        "Output": "Hello World!"
     });
 })
 
